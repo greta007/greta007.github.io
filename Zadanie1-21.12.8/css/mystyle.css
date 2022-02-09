@@ -1,0 +1,50 @@
+body{
+    background-color: #ffffff;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+h1, h2, h3 {
+    font-family: "Big Shoulders Text";
+}
+h1  {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000000;
+    font-size: 258%;
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+    background-color: #DF8D8F;
+    background-image: url("../img/putin.png")-webkit-linear-gradient(270deg,rgba(226,182,183,1.00) 0%,rgba(188,104,104,1.00) 100%);
+    background-image: url("../img/putin.png"), -moz-linear-gradient(270deg,rgba(226,182,183,1.00) 0%,rgba(188,104,104,1.00) 100%);
+    background-image: url("../img/putin.png"), -o-linear-gradient(270deg,rgba(226,182,183,1.00) 0%,rgba(188,104,104,1.00) 100%);
+    background-image: url("../img/putin.png"), linear-gradient(180deg,rgba(226,182,183,1.00) 0%,rgba(188,104,104,1.00) 100%);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    z-index: 10;
+}
+#info {
+    width: 90%;
+      border-bottom: dotted rgb(0, 0, 0) 1px;
+}
+button {
+    background-color: #000000; 
+    border-radius: 9px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+ }
+ button:hover {
+    background-color: #DF8D8F; 
+    border-radius: 9px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;    
+      font-size: 16px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    
