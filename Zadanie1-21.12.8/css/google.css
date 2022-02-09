@@ -1,0 +1,33 @@
+
+#google_logo {
+
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#google_logo > img{
+    display: block;
+    margin: 0 auto;
+}
+#query {
+    width: 572px;
+    margin: auto;
+}
+#query > input {
+    width:572px;
+    height:30px;
+    margin: auto;
+    background-image: url("images/microphone.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#query input[type="text"] {
+font-size: 17px;
+}
+
+body {
+    text-align: center;
+}
